@@ -17,7 +17,7 @@ function createApolloGraphqlServer() {
             //schema layer
             typeDefs: `  
         type Query {
-          hello:String
+          ${user_1.User.queries}
         }
     
         type Mutation {
